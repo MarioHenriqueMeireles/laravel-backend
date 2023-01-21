@@ -47,7 +47,8 @@ class CtreteMigrations extends Command
             "./artisan make:migration 'CreateHousesTable'; " .
             "./artisan make:migration 'CreateRoomTable';" .
             "./artisan make:migration 'CreateRoomDoorTable';" .
-            "./artisan make:migration 'CreateRoomTypesTable';";
+            "./artisan make:migration 'CreateRoomTypesTable';".
+            "touch database/database.sqlite";
         $basePath = base_path();
         $this->info(shell_exec("cd {$basePath} && {$tests}"));
         $this->info('End command');
