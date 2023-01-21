@@ -16,7 +16,7 @@ O presente treinamento pretende introduzir um fluxo de trabalho orientado por te
 
 O uso de testes no desenvolvimento auxilia no processo de entendimento do que deve ser desenvolvido: toda regrade negócios possui partes que são os pré requisitos para sua implementação.
 
-Ao dividir e testar as partes, produzimos um código razoavelmene fatorado logo na sída, o que auxilia os desenvolvimentos subsequentes.
+Ao dividir e testar as partes, produzimos um código razoavelmene fatorado logo na sída, que auxilia os desenvolvimentos subsequentes.
 
 Além disso, partimos do problema para fatora e não do código, que costuma ser muito mais complexo e de difícil manipulação.
 
@@ -31,9 +31,9 @@ O desenvolvimento orientado por testes evita isso!
 #### Observações gerais
 Vamos partir de um projeto já estabelacido para evitar entrar em minúcias do Laravel, como criação de classes.
 
-A partir desse projeto, vamos implementar os testes, revisando o usos e configurações das classes Model do Eloquent, aprimorando nossa eloquência na escrita de regras de negócio.
+A partir desse projeto, vamos implementar os testes, revizando os usos e configurações das classes Model do Eloquent, aprimorando nossa "eloquência" na escrita de regras de negócio.
 
-**ATENÇÂO:** Eloquência (a famosa **Elgância**) não é ser complicado ou desnecessáriamente complexo, mas ser simples e efetivo na expreção!
+**ATENÇÂO:** Eloquência (a famosa **Elegância**) não é ser complicado ou desnecessáriamente complexo, mas ser simples e efetivo na expressão!
 
 #### O Modelo - visão estrutural do modelo
 
@@ -43,11 +43,11 @@ Tudo que é implementado, parte de um modelo!
 
 <img src="readme-imgs/der.png">
 
-2. As classe de modelo - Diagrama de classes
+2. As classes de modelo - Diagrama de classes
 
 <img src="readme-imgs/dc.png">
 
-#### Estrutura
+
 
 
 
