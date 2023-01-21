@@ -4,7 +4,7 @@
 
 1. Introduzir o uso de testes unitários;
 2. Revisar, praticar e aprimorar o uso do ORM Eloquent;
-3. Demostrar a praticidade do uso de serviços na implementação de regras de negócio.
+3. Demostrar a praticidade do uso de testes e de serviços na implementação de regras de negócio.
 
 ## O Modelo - visão estrutural do modelo
 
@@ -54,13 +54,15 @@ O sistema deve gerenciar um cadastro de casas com seus proprietários.
 4. O sistema deve listar as casas de um proprietário;
 5. O sistema deve informar a quantidade de cômodos, de portas e de janelas de uma casa;
 
-#### Regras de negócio e Serviços
+### Regras de negócio e Serviços
 
 As regras de negócio são diretamente deteminadas pelos requisitos, só se implementa uma regra de negócio que é referenciada num requisito.
 
 Isso evita o desperdício de tempo por implementar funcionalidades desnecessárias e apoia uma codificação mais limpa e direta.
 
-Assumiremos, aqui, que um Seviço representa a implementação de uma regra de negócio ou parte dela.
+Um outro ponto a se observar é que, ao usarmos serviços adequadamente, implementamos um código mais fatorado, testável, manutenível e reusável.
+
+Assumiremos, aqui, que um Seviço representa a implementação de uma regra de negócio ou parte dela, na camada de modelo.
 
 ### Os Testes
 
