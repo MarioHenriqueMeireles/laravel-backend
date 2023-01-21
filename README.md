@@ -10,11 +10,11 @@
 
 Tudo que é implementado, parte de um modelo!
 
-1. O banco de dados - MER
+**1. O banco de dados - MER**
 
 <img src="readme-imgs/der.png">
 
-2. As classes de modelo - Diagrama de classes
+**2. As classes de modelo - Diagrama de classes**
 
 <img src="readme-imgs/dc.png">
 
