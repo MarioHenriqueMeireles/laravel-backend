@@ -37,9 +37,9 @@ A disciplina de requisitos no processo de desenvolvimento de software, busca apo
 
 Como disciplina, cada metodologia e/ou framework de desenvolvolvimento possui representações textuais para estabelecer os requisitos (i.e.: o scrum possui os Epics e Stories, por exemplo).
 
-Materialmente, **requisitos** nada mais são do que uma descrição genérica ou apontamento a ser traduzido para um algorítmo;
+Materialmente, **requisitos** nada mais são do que uma descrição genérica ou apontamento a ser traduzido para um sistema;
 
-Após o estabelcimento de um requisito, poderíamos ananlisá-lo e escrever os **Casos de Uso** relacioados, por exemplo, mas não vamos, porque o objetivo é estudar a ferramenta, ou seja o Laravel.
+Após o estabelcimento de um requisito, poderíamos ananlisá-lo e escrever os **Casos de Uso** relacioados, por exemplo, mas não vamos, porque o objetivo geral é estudar a ferramenta, ou seja o Laravel.
 
 ### Contexto - O Sistema
 
@@ -48,7 +48,7 @@ O sistema deve gerenciar um cadastro de casas com seus proprietários.
 
 ### Os requisitos, ou seja, os apontamentos
 
-1. O sistema deve possuir um cadastro de casas e suas confiurações (cômodos, portas, janelas, endereço e proprietário);
+1. O sistema deve possuir um cadastro de casas e suas configurações (cômodos, portas, janelas, endereço e proprietário);
 2. Uma casa deve pussuir um propritário e endereço;
 3. Um cômodo deve possuir pelo menos uma porta; 
 4. O sistema deve listar as casas de um proprietário;
@@ -56,31 +56,30 @@ O sistema deve gerenciar um cadastro de casas com seus proprietários.
 
 #### Regras de negócio e Serviços
 
-As regras de negócio são diretamente deteminadas pelos requisitos, só se implementa uma regra de negócio que é reerenciada num requisito.
+As regras de negócio são diretamente deteminadas pelos requisitos, só se implementa uma regra de negócio que é referenciada num requisito.
 
 Isso evita o desperdício de tempo por implementar funcionalidades desnecessárias e apoia uma codificação mais limpa e direta.
 
-Assumiremos, aqui, que um Seviço representa uma regra de negócio ou parte dela, implementadas, veremos isso a seguir.
+Assumiremos, aqui, que um Seviço representa a implementação de uma regra de negócio ou parte dela.
 
 ### Os Testes
 
-Os testes devem ser implementados antes de se implementar qualquer outro código, uma vez que eles definem, a partir dos requisitos, o que deve ser implementado em termos de funcionalidade e de código.
+Os testes devem ser implementados antes de se implementar qualquer outro código, a partir dos requisitos.
 
-Nesse treinamento, por motivos didáticos e porque a modelagem conceitual já foi estabelecida, algumas classes já foram implementadas. 
+Nesse treinamento, por motivos práticos, já foi estabelecida a modelagem conceitual e, a partir dela,  foram mplementdas as classes e estruturas do modelo. 
 
 #### Comandos para execução de testes
 
-- Laravel - ver documentação de referência
+- Laravel - <a href="https://laravel.com/docs/8.x/testing">ver documentação de referência</a>
 <br>
 <pre>php artisan test </pre>
 - PHPUnit
 <br>
 <pre>vendor/bin/phpunit --testdox --group=<b>[NOME DO GUPO DE TESTES]</b></pre>
 
-
 ## Exercício
 
-Relize os seguintes testes e implementações:
+Relize os seguintes testes e implementações (esses exercíos, aqui, "equivalem" aos **Casos de Uso**):
 
 1. Criar uma nova casa;
 2. Listar casas por proprietário, com os endereços destas;
