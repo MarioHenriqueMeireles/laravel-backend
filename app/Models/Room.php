@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Room extends Model
 {
     use Uuids;
+
     protected $table = 'rooms';
     protected $dateFormat = 'Y-m-d H:i:s.u';
     public $incrementing = false;
@@ -23,4 +24,25 @@ class Room extends Model
         "created_at",
         "updated_at",
     ];
+
+    public function windows()
+    {
+        return $this->hasMany(Window::class, 'room_id', 'id');
+    }
+
+    public function doors()
+    {
+        return $this->hasMany(Door::class, 'room_id', 'id');
+    }
+
+    public function house()
+    {
+        return $this->belongsTo(House::class, 'house_id', 'id');
+    }
+
+    public function type()
+    {
+        return $this->belongsTo(RoomType::class, 'room_type_id', 'id');
+    }
+
 }

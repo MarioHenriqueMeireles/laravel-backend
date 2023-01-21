@@ -35,9 +35,17 @@ A partir desse projeto, vamos implementar os testes, revisando o usos e configur
 
 **ATENÇÂO:** Eloquência (a famosa **Elgância**) não é ser complicado ou desnecessáriamente complexo, mas ser simples e efetivo na expreção!
 
-#### O Modelo
+#### O Modelo - visão estrutural do modelo
 
 Tudo que é implementado, parte de um modelo!
+
+1. O banco de dados - MER
+
+<img src="readme-imgs/der.png">
+
+2. As classe de modelo - Diagrama de classes
+
+<img src="readme-imgs/dc.png">
 
 #### Estrutura
 

@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Address extends Model
 {
     use Uuids;
+
     protected $table = 'address';
     protected $dateFormat = 'Y-m-d H:i:s.u';
     public $timestamps = true;
@@ -24,4 +25,8 @@ class Address extends Model
         "updated_at",
     ];
 
+    public function houses()
+    {
+        return $this->hasMany(House::class, 'address_id', 'id');
+    }
 }
