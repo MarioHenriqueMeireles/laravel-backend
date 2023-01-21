@@ -25,14 +25,19 @@ class House extends Model
         "updated_at",
     ];
 
-    public function doors()
-    {
-        return $this->hasMany(Door::class, 'house_id', 'id');
-    }
-
     public function rooms()
     {
         return $this->hasMany(Room::class, 'house_id', 'id');
+    }
+
+    public function doors()
+    {
+        return $this->hasManyThrough(Door::class, Room::class, 'house_id', 'room_id', 'id', 'id');
+    }
+
+    public function windows()
+    {
+        return $this->hasManyThrough(Window::class, Room::class, 'house_id', 'room_id', 'id', 'id');
     }
 
     public function address()
