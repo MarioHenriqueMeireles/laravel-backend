@@ -43,25 +43,34 @@ O sistema deve gerenciar um cadastro de casas com seus proprietários.
 4. O sistema deve listar as casas de um proprietário;
 5. O sistema deve informar a quantidade de cômodos, de portas e de janelas de uma casa;
 
+#### Regras de negócio e Serviços
+
+As regras de negócio são diretamente deteminadas pelos requisitos, só se implementa uma regra de negócio que é reerenciada num requisito.
+
+Isso evita o desperdício de tempo por implementar funcionalidades desnecessárias e apoia uma codificação mais limpa e direta.
+
+Assumiremos, aqui, que um Seviço representa uma regra de negócio ou parte dela, implementadas, veremos isso a seguir.
+
 ### Os Testes
 
 Os testes são criados antes de se implementar qualquer código, uma vez que eles definem, a aprtir dos requisitos, o que deve ser implementado em termos de funcionalidade.
 
 Nesse treinamento, por motivos didáticos e porque a modelagem conceitual já foi estabelecida, algumas classes já foram implementadas. 
 
-#### Exercício
+#### Comandos para execução de testes
+
+- Laravel - ver documentação de referência
+  <br>
+<pre>php artisan test </pre>
+- PHPUnit
+<br>
+<pre>vendor/bin/phpunit --testdox --group=<b>[NOME DO GUPO DE TESTES]</b></pre>
+
+
+## Exercício
 
 Relize os seguintes testes:
 
-1. Criar nova casa;
+1. Criar uma nova casa;
 2. Listar casas por proprietário, com os endereços destas;
 3. Listar os cômodos de uma casa, com suas janelas e portas;
-
-#### Regras de negócio e Serviços
-
-As regras de negócio são diretamente deteminadas pelos requisitos, só se implementa uma regra de negócio que é reerenciada num requisito.
-
-Isso evita o desperdício de tempo por implementar funcionalidades desnecessárias e apoia uma codificação mais limpa e direta. 
-
-Assumiremos, aqui, que um Seviço representa uma regra de negócio ou parte dela, implementadas, veremos isso a seguir.
-

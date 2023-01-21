@@ -8,7 +8,7 @@ class ListHousesServiceTest extends TestCase
 {
     /**
      * A basic unit test example.
-     *
+     * @group HouseList
      * @return void
      */
     public function test_example()
