@@ -28,7 +28,7 @@ Motivos:
 
 1. Orientar a implementação de regras de negócio e reduzir desperdício;
 2. Construir um entendimento mais claro sobre a implementação a ser relizada - apoio à fatoração de código;
-3. Definir e Validar requisitos.
+3. Definir e Validar requisitos implementados.
 
 
 ### Sobre os requisitos
