@@ -45,9 +45,23 @@ O sistema deve gerenciar um cadastro de casas com seus proprietários.
 
 ### Os Testes
 
+Os testes são criados antes de se implementar qualquer código, uma vez que eles definem, a aprtir dos requisitos, o que deve ser implementado em termos de funcionalidade.
+
+Nesse treinamento, por motivos didáticos e porque a modelagem conceitual já foi estabelecida, algumas classes já foram implementadas. 
+
+#### Exercício
+
 Relize os seguintes testes:
 
 1. Criar nova casa;
 2. Listar casas por proprietário, com os endereços destas;
 3. Listar os cômodos de uma casa, com suas janelas e portas;
+
+#### Regras de negócio e Serviços
+
+As regras de negócio são diretamente deteminadas pelos requisitos, só se implementa uma regra de negócio que é reerenciada num requisito.
+
+Isso evita o desperdício de tempo por implementar funcionalidades desnecessárias e apoia uma codificação mais limpa e direta. 
+
+Assumiremos, aqui, que um Seviço representa uma regra de negócio ou parte dela, implementadas, veremos isso a seguir.
 
