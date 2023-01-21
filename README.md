@@ -2,7 +2,7 @@
 
 ### Objetivos do treinamento
 
-1. Introduzir o uso de testes
+1. Introduzir o uso de testes unitários;
 2. Revisar, praticar e aprimorar o uso do ORM Eloquent;
 3. Demostrar a praticidade do uso de serviços na implementação de regras de negócio.
 
@@ -20,11 +20,11 @@ Tudo que é implementado, parte de um modelo!
 
 ## Os Testes
 
-### Motivação dos testes, ou , porque fazer?
+### Motivação dos testes, ou, "porque usar?"
 
-O entendimento fundamental que devemos atingir sobre os testes é que são feitos sobre requisitos, ou seja, o que e como o sistema deve fazer algo;
+O entendimento fundamental que devemos atingir sobre os testes é que são feitos sobre requisitos, ou seja, o que e como o sistema deve fazer algo.
 
-Motivos:
+**Motivos:**
 
 1. Orientar a implementação de regras de negócio e reduzir desperdício;
 2. Construir um entendimento mais claro sobre a implementação a ser relizada - apoio à fatoração de código;
@@ -33,15 +33,13 @@ Motivos:
 
 ### Sobre os requisitos
 
-A disciplina de requisitos no processo de desenvolvimento de software, busca apontar o como estabelecer e gerenciar o uso de reuisitos e aplicação dentro deste processo.
+A disciplina de requisitos no processo de desenvolvimento de software, busca apontar o como estabelecer e gerenciar o uso de requisitos e aplicação dentro deste processo.
 
 Como disciplina, cada metodologia e/ou framework de desenvolvolvimento possui representações textuais para estabelecer os requisitos (i.e.: o scrum possui os Epics e Stories, por exemplo).
 
-Materialmente, Requisitos nada mais são do que uma descrição genérica ou apontamento a ser traduzido para um algorítmo;
+Materialmente, **requisitos** nada mais são do que uma descrição genérica ou apontamento a ser traduzido para um algorítmo;
 
 Após o estabelcimento de um requisito, poderíamos ananlisá-lo e escrever os **Casos de Uso** relacioados, por exemplo, mas não vamos, porque o objetivo é estudar a ferramenta, ou seja o Laravel.
-
-Evitando as descrições formais e formatadoas, neste treinamento, apenas será apontado o que deve ser desenvolvido, como meio de orientar o andamento e não sobrecarregar o conteúdo.
 
 ### Contexto - O Sistema
 
@@ -66,14 +64,14 @@ Assumiremos, aqui, que um Seviço representa uma regra de negócio ou parte dela
 
 ### Os Testes
 
-Os testes são criados antes de se implementar qualquer código, uma vez que eles definem, a aprtir dos requisitos, o que deve ser implementado em termos de funcionalidade.
+Os testes devem ser implementados antes de se implementar qualquer outro código, uma vez que eles definem, a partir dos requisitos, o que deve ser implementado em termos de funcionalidade e de código.
 
 Nesse treinamento, por motivos didáticos e porque a modelagem conceitual já foi estabelecida, algumas classes já foram implementadas. 
 
 #### Comandos para execução de testes
 
 - Laravel - ver documentação de referência
-  <br>
+<br>
 <pre>php artisan test </pre>
 - PHPUnit
 <br>
