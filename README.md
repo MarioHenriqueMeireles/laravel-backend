@@ -1,41 +1,6 @@
 # Laravel Backend - Training
-## O Laravel
-### RAD - Rapid Application Development e desenvolvimento por testes
 
-O Laravel como framework permite a criação, configuração e o uso de uma arquitetura relativamente complexa de modo rápido, simples e estável.
-
-Essa simplicidade que o Laravel traz, permite focar o desenvolvimento na implementação das regras de negócio, que é o objetivo final de qualquer aplicação.
-
-A principal armadilha a se evitar é pensar que a implementação de regras de negócio é genericamente simples.
-
-Cada regra de negócio encerra em si a sua própria complexidade.
-
-O Laravel é simples e relativamente fácil; as regras de negócio, por sua vez, dependem do entendimento do desenvolvedor e isso é um processo relativamente complexo.
-
-O presente treinamento pretende introduzir um fluxo de trabalho orientado por testes na implementação de  regras de negócio, fatorando e explorando a simplicidade que essa fatoração fornece.
-
-O uso de testes no desenvolvimento auxilia no processo de entendimento do que deve ser desenvolvido: toda regra de negócios possui partes que são os pré requisitos para sua implementação.
-
-Ao dividir e testar as partes, produzimos um código razoavelmente fatorado logo na saída, que auxilia os desenvolvimentos subsequentes.
-
-Além disso, partimos do problema para fatora e não do código, que costuma ser muito mais complexo e de difícil manipulação.
-
-Como as partes são testadas e continuamente integradas, o desenvolvimento de features se torna mais visível e linear e o fim se torna claro.
-
-Lembram aquela sessação de estar perdido ou sobrecarregado no meio do desenvolvimento?
-
-O desenvolvimento orientado por testes evita isso!
-
-### O Projeto
-
-#### Observações gerais
-Vamos partir de um projeto já estabelacido para evitar entrar em minúcias do Laravel, como criação de classes.
-
-A partir desse projeto, vamos implementar os testes, revizando os usos e configurações das classes Model do Eloquent, para aprimorar nossa "eloquência" na escrita de regras de negócio.
-
-**ATENÇÂO:** Eloquência (a famosa **Elegância**) não é ser complicado ou desnecessáriamente complexo, mas ser simples e efetivo na expressão!
-
-#### O Modelo - visão estrutural do modelo
+## O Modelo - visão estrutural do modelo
 
 Tudo que é implementado, parte de um modelo!
 
@@ -47,7 +12,42 @@ Tudo que é implementado, parte de um modelo!
 
 <img src="readme-imgs/dc.png">
 
+## Os Testes
+
+### Motivação dos testes
+
+O entendimento fundamental que devemos atingir sobre os testes é que são feitos sobre requisitos, ou seja, o que e como o sistema deve fazer algo;
+
+### Sobre os requisitos
+
+A disciplina de requisitos no processo de desenvolvimento de software, busca apontar o como estabelecer e gerenciar o uso de reuisitos e aplicação dentro deste processo.
+
+Como disciplina, cada metodologia e/ou framework de desenvolvolvimento possui representações textuais para estabelecer os requisitos (i.e.: o scrum possui os Epics e Stories, por exemplo).
+
+Materialmente, Requisitos nada mais são do que uma descrição genérica ou apontamento a ser traduzido para um algorítmo;
+
+Após o estabelcimento de um requisito, poderíamos ananlisá-lo e escrever os **Casos de Uso** relacioados, por exemplo, mas não vamos, porque o objetivo é estudar a ferramenta, ou seja o Laravel.
+
+Evitando as descrições formais e formatadoas, neste treinamento, apenas será apontado o que deve ser desenvolvido, como meio de orientar o andamento e não sobrecarregar o conteúdo.
+
+### Contexto - O Sistema
+
+O sistema deve gerenciar um cadastro de casas com seus proprietários.
 
 
+### Os requisitos, ou seja, os apontamentos
 
+1. O sistema deve possuir um cadastro de casas e suas confiurações (cômodos, portas, janelas, endereço e proprietário);
+2. Uma casa deve pussuir um propritário e endereço;
+3. Um cômodo deve possuir pelo menos uma porta; 
+4. O sistema deve listar as casas de um proprietário;
+5. O sistema deve informar a quantidade de cômodos, de portas e de janelas de uma casa;
+
+### Os Testes
+
+Relize os seguintes testes:
+
+1. Criar nova casa;
+2. Listar casas por proprietário, com os endereços destas;
+3. Listar os cômodos de uma casa, com suas janelas e portas;
 
