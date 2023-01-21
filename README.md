@@ -31,7 +31,7 @@ O desenvolvimento orientado por testes evita isso!
 #### Observações gerais
 Vamos partir de um projeto já estabelacido para evitar entrar em minúcias do Laravel, como criação de classes.
 
-A partir desse projeto, vamos implementar os testes, revizando os usos e configurações das classes Model do Eloquent, aprimorando nossa "eloquência" na escrita de regras de negócio.
+A partir desse projeto, vamos implementar os testes, revizando os usos e configurações das classes Model do Eloquent, para aprimorar nossa "eloquência" na escrita de regras de negócio.
 
 **ATENÇÂO:** Eloquência (a famosa **Elegância**) não é ser complicado ou desnecessáriamente complexo, mas ser simples e efetivo na expressão!
 
