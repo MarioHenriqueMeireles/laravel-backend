@@ -1,6 +1,6 @@
 # Laravel Backend - Training
 ## O Laravel
-### RAD - Rapid Application Development
+### RAD - Rapid Application Development e desenvolvimento por testes
 
 O Laravel como framework permite a criação, configuração e o uso de uma arquitetura relativamente complexa de modo rápido, simples e estável.
 
@@ -10,56 +10,36 @@ A principal armadilha a se evitar é pensar que a implementçao de regras de neg
 
 Cada regra de ngócio encerra em si a sua própria complexidae. 
 
-O Laravel é siples e relativamente fácil; as regras de negócio, por sua vez, dependem do entendimento do desenvolvedor e isso é processo complexo.
+O Laravel é simples e relativamente fácil; as regras de negócio, por sua vez, dependem do entendimento do desenvolvedor e isso é um processo relativamente complexo.
 
-O presente treinamento pretende introduzir um fluxo de trabalho orientado por testes para a implementação de negócio mais complexas.  
+O presente treinamento pretende introduzir um fluxo de trabalho orientado por testes na implementação de  regras de negócio, fatorando e explorando a simplicidade que essa fatoração fornece.  
 
-O uso de testes no desenvolvimento auxilia no processo de entendimento do que deve ser desenvolvido e, por sua vez, de desenvolvimento de implementações masi limpas, manuteníveis e reusáveis.
+O uso de testes no desenvolvimento auxilia no processo de entendimento do que deve ser desenvolvido: toda regrade negócios possui partes que são os pré requisitos para sua implementação.
 
-Para as entregas, a importância dos testes reside na capacidade de validar requisito.
+Ao dividir e testar as partes, produzimos um código razoavelmene fatorado logo na sída, o que auxilia os desenvolvimentos subsequentes.
 
-Para a escrita de código, o testes auxiliam numa melhor fatoração inicial do código, na medida que o que a escrita prate de um problema descrito já fatorado.
+Além disso, partimos do problema para fatora e não do código, que costuma ser muito mais complexo e de difícil manipulação.
+
+Como as partes são testadas e continuamente integradas, o desenvolvimento de features se torna mais visível e linear e o fim se torna claro. 
+
+Lembram aquela sessação de estar perdido ou sobrecarregado no meio do desenvolvimento?
+
+O desenvolvimento orientado por testes evita isso!
+
+### O Projeto
+
+#### Observações gerais
+Vamos partir de um projeto já estabelacido para evitar entrar em minúcias do Laravel, como criação de classes.
+
+A partir desse projeto, vamos implementar os testes, revisando o usos e configurações das classes Model do Eloquent, aprimorando nossa eloquência na escrita de regras de negócio.
+
+**ATENÇÂO:** Eloquência (a famosa **Elgância**) não é ser complicado ou desnecessáriamente complexo, mas ser simples e efetivo na expreção!
+
+#### O Modelo
+
+Tudo que é implementado, parte de um modelo!
+
+#### Estrutura
 
 
 
-## Testes
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
