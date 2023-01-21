@@ -4,19 +4,19 @@
 
 O Laravel como framework permite a criação, configuração e o uso de uma arquitetura relativamente complexa de modo rápido, simples e estável.
 
-Essa simpleiciade que o Laravel traz, permite focar o desenvolvimento na implementação das regras de negócio, que é oobjetivo final de qualquer aplicação.
+Essa simplicidade que o Laravel traz, permite focar o desenvolvimento na implementação das regras de negócio, que é o objetivo final de qualquer aplicação.
 
-A principal armadilha a se evitar é pensar que a implementçao de regras de negócio é genéricamente simples.
+A principal armadilha a se evitar é pensar que a implementação de regras de negócio é genericamente simples.
 
-Cada regra de ngócio encerra em si a sua própria complexidae.
+Cada regra de negócio encerra em si a sua própria complexidade.
 
 O Laravel é simples e relativamente fácil; as regras de negócio, por sua vez, dependem do entendimento do desenvolvedor e isso é um processo relativamente complexo.
 
 O presente treinamento pretende introduzir um fluxo de trabalho orientado por testes na implementação de  regras de negócio, fatorando e explorando a simplicidade que essa fatoração fornece.
 
-O uso de testes no desenvolvimento auxilia no processo de entendimento do que deve ser desenvolvido: toda regrade negócios possui partes que são os pré requisitos para sua implementação.
+O uso de testes no desenvolvimento auxilia no processo de entendimento do que deve ser desenvolvido: toda regra de negócios possui partes que são os pré requisitos para sua implementação.
 
-Ao dividir e testar as partes, produzimos um código razoavelmene fatorado logo na sída, que auxilia os desenvolvimentos subsequentes.
+Ao dividir e testar as partes, produzimos um código razoavelmente fatorado logo na saída, que auxilia os desenvolvimentos subsequentes.
 
 Além disso, partimos do problema para fatora e não do código, que costuma ser muito mais complexo e de difícil manipulação.
 
