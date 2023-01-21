@@ -2,6 +2,8 @@
 
 namespace Tests\Unit\Services;
 
+use App\Models\House;
+use App\Services\CreateHouseService;
 use PHPUnit\Framework\TestCase;
 
 class CreateHouseServiceTest extends TestCase
@@ -11,8 +13,9 @@ class CreateHouseServiceTest extends TestCase
      * @group HouseCreation
      * @return void
      */
-    public function test_example()
+    public function test_creation()
     {
-        $this->assertTrue(true);
+        $service = new CreateHouseService();
+        $this->assertInstanceOf(House::class, $service->handle());
     }
 }

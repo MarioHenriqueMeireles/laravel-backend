@@ -1,5 +1,11 @@
 # Laravel Backend - Training
 
+### Objetivos do treinamento
+
+1. Introduzir o uso de testes
+2. Revisar, praticar e aprimorar o uso do ORM Eloquent;
+3. Demostrar a praticidade do uso de serviços na implementação de regras de negócio.
+
 ## O Modelo - visão estrutural do modelo
 
 Tudo que é implementado, parte de um modelo!
@@ -14,9 +20,16 @@ Tudo que é implementado, parte de um modelo!
 
 ## Os Testes
 
-### Motivação dos testes
+### Motivação dos testes, ou , porque fazer?
 
 O entendimento fundamental que devemos atingir sobre os testes é que são feitos sobre requisitos, ou seja, o que e como o sistema deve fazer algo;
+
+Motivos:
+
+1. Orientar a implementação de regras de negócio e reduzir desperdício;
+2. Construir um entendimento mais claro sobre a implementação a ser relizada - apoio à fatoração de código;
+3. Definir e Validar requisitos.
+
 
 ### Sobre os requisitos
 
@@ -69,7 +82,7 @@ Nesse treinamento, por motivos didáticos e porque a modelagem conceitual já fo
 
 ## Exercício
 
-Relize os seguintes testes:
+Relize os seguintes testes e implementações:
 
 1. Criar uma nova casa;
 2. Listar casas por proprietário, com os endereços destas;
