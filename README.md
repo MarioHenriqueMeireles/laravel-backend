@@ -4,7 +4,7 @@
 
 1. Introduzir o uso de testes unitários;
 2. Revisar, praticar e aprimorar o uso do ORM Eloquent;
-3. Demostrar a praticidade do uso de testes e de serviços na implementação de regras de negócio.
+3. Demostrar a praticidade e praticar do uso de testes e de serviços na implementação de regras de negócio.
 
 ## O Modelo - visão estrutural do modelo
 
