@@ -41,7 +41,7 @@ Materialmente, **requisitos** nada mais são do que uma descrição genérica ou
 
 Após o estabelcimento de um requisito, poderíamos ananlisá-lo e escrever os **Casos de Uso** relacioados, por exemplo, mas não vamos, porque o objetivo geral é estudar a ferramenta, ou seja o Laravel.
 
-### Contexto - O Sistema
+### Contexto - O Sistema, visão geral
 
 O sistema deve gerenciar um cadastro de casas com seus proprietários.
 
@@ -66,15 +66,16 @@ Assumiremos, aqui, que um Seviço representa a implementação de uma regra de n
 
 Os testes devem ser implementados antes de se implementar qualquer outro código, a partir dos requisitos.
 
-Nesse treinamento, por motivos práticos, já foi estabelecida a modelagem conceitual e, a partir dela,  foram mplementdas as classes e estruturas do modelo. 
+Nesse treinamento, por motivos práticos, já foi estabelecida a modelagem conceitual - e a partir desta -  foram implementdas as classes e estruturas do modelo. 
 
 #### Comandos para execução de testes
 
 - Laravel - <a href="https://laravel.com/docs/8.x/testing">ver documentação de referência</a>
-<br>
+
 <pre>php artisan test </pre>
+
 - PHPUnit
-<br>
+
 <pre>vendor/bin/phpunit --testdox --group=<b>[NOME DO GUPO DE TESTES]</b></pre>
 
 ## Exercício
