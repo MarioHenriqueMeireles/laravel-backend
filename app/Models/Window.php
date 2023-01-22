@@ -8,13 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class Window extends Model
 {
     use Uuids;
-    protected $table = 'windows';
-    protected $dateFormat = 'Y-m-d H:i:s.u';
+
+    protected $table = "windows";
+    protected $dateFormat = "Y-m-d H:i:s.u";
     public $incrementing = false;
     protected $casts = [
-        "id"      => 'string',
-        'room_id' => 'string',
-        'description' => 'string'
+        "id"          => "string",
+        "room_id"     => "string",
+        "description" => "string"
     ];
     protected $fillable = [
         "id",
@@ -23,4 +24,9 @@ class Window extends Model
         "created_at",
         "updated_at",
     ];
+
+    public function room()
+    {
+        return $this->belongsTo(Room::class, "house_id", "id");
+    }
 }

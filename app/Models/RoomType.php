@@ -8,13 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class RoomType extends Model
 {
     use Uuids;
-    protected $table = 'room_types';
-    protected $dateFormat = 'Y-m-d H:i:s.u';
+
+    protected $table = "room_types";
+    protected $dateFormat = "Y-m-d H:i:s.u";
     public $incrementing = false;
     protected $casts = [
-        "id"   => 'string',
-        'name' => 'string',
-        'description' => 'string'
+        "id"          => "string",
+        "name"        => "string",
+        "description" => "string"
     ];
     protected $fillable = [
         "id",
@@ -23,4 +24,9 @@ class RoomType extends Model
         "created_at",
         "updated_at",
     ];
+
+    public function rooms()
+    {
+        return $this->hasMany(Room::class, "house_id", "id");
+    }
 }
