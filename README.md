@@ -20,7 +20,7 @@ Tudo que é implementado, parte de um modelo!
 
 ## Os Testes
 
-### Motivação dos testes, ou, "porque usar?"
+### Motivação dos testes ou "porque usar?"
 
 O entendimento fundamental que devemos atingir sobre os testes é que são feitos sobre requisitos, ou seja, o que e como o sistema deve fazer algo.
 
