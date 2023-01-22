@@ -27,7 +27,7 @@ O entendimento fundamental que devemos atingir sobre os testes é que são feito
 **Motivos:**
 
 1. Orientar a implementação de regras de negócio e reduzir desperdício;
-2. Construir um entendimento mais claro sobre a implementação a ser relizada - apoio à fatoração de código;
+2. Construir um entendimento mais claro sobre a implementação a ser realizada - apoio à fatoração de código;
 3. Definir e Validar requisitos implementados.
 
 
@@ -82,7 +82,7 @@ Nesse treinamento, por motivos práticos, já foi estabelecida a modelagem conce
 
 ## Exercício
 
-Relize os seguintes testes e implementações (esses exercíos, aqui, "equivalem" aos **Casos de Uso**):
+Realize os seguintes testes e implementações (esses exercíos, aqui, "equivalem" aos **Casos de Uso**):
 
 1. Criar uma nova casa;
 2. Listar casas por proprietário, com os endereços destas;
