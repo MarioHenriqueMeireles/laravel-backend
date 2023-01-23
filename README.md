@@ -68,7 +68,9 @@ Assumiremos, aqui, que um Seviço representa a implementação de uma regra de n
 
 #### Visão Geral (Presman e Maxin, p-375)
 
-<img src="readme-imgs/testes.png">
+Neste treinamento, vamos lidar apenas com testes e unidade, em POO, como definido por <i>Pressman & Maxin</i> em <i>"Testes Orientado a Objetos"</i> (p. 390)
+
+<img src="readme-imgs/testes.png"/>
 
 #### Orientações
 Os testes devem ser implementados antes de se implementar qualquer outro código, a partir dos requisitos.
@@ -92,3 +94,8 @@ Realize os seguintes testes e implementações (esses exercíos, aqui, "equivale
 1. Criar uma nova casa;
 2. Listar casas por proprietário, com os endereços destas;
 3. Listar os cômodos de uma casa, com suas janelas e portas;
+
+
+##### Bibliografia
+
+**Pressman, Roger S. & Maxin, Bruce R.**. <i>Engenharia de Software: uma abordagem profissional</i>. 9a Ed. 2021.
