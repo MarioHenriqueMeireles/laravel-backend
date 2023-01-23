@@ -66,6 +66,11 @@ Assumiremos, aqui, que um Seviço representa a implementação de uma regra de n
 
 ### Os Testes
 
+#### Visão Geral (Presman e Maxin, p-375)
+
+<img src="readme-imgs/testes.png">
+
+#### Orientações
 Os testes devem ser implementados antes de se implementar qualquer outro código, a partir dos requisitos.
 
 Nesse treinamento, por motivos práticos, já foi estabelecida a modelagem conceitual - e a partir desta -  foram implementdas as classes e estruturas do modelo.
