@@ -2,7 +2,7 @@
 
 namespace Tests\Unit\Services;
 
-use PHPUnit\Framework\TestCase;
+use Tests\TestCase;
 
 class ListHousesServiceTest extends TestCase
 {
@@ -13,6 +13,6 @@ class ListHousesServiceTest extends TestCase
      */
     public function test_example()
     {
-        $this->assertTrue(true);
+
     }
 }

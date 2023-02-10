@@ -32,7 +32,7 @@ class Room extends Model
 
     public function doors()
     {
-        return $this->hasMany(Door::class, 'room_id', 'id');
+        return $this->belongsToMany(Door::class, "room_door", "room_id", 'id');
     }
 
     public function house()

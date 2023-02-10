@@ -11,6 +11,7 @@ class Door extends Model
 
     protected $table = "doors";
     protected $dateFormat = "Y-m-d H:i:s.u";
+    public $timestamps = true;
     public $incrementing = false;
     protected $casts = [
         "id"          => "string",
@@ -25,7 +26,7 @@ class Door extends Model
 
     public function room()
     {
-        return $this->belongsTo(Room::class, "house_id", "id");
+        return $this->belongsToMany(Room::class, "room_door", "door_id", 'id');
     }
 
 }

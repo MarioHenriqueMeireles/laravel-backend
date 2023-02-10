@@ -66,7 +66,7 @@ Assumiremos, aqui, que um Seviço representa a implementação de uma regra de n
 
 ### Os Testes
 
-Neste treinamento, vamos lidar apenas com **testes se unidade**, em POO, como definido por <i>Pressman & Maxin</i> em <i>"Testes Orientado a Objetos"</i> (p. 390)
+Neste treinamento, vamos lidar apenas com **testes de unidade**, em POO, como definido por <i>Pressman & Maxin</i> em <i>"Testes Orientado a Objetos"</i> (p. 390)
 
 #### Visão Geral (Presman e Maxin, p-375)
 

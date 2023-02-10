@@ -6,6 +6,7 @@ use Illuminate\Contracts\Console\Kernel;
 
 trait CreatesApplication
 {
+    protected $faker;
     /**
      * Creates the application.
      *
